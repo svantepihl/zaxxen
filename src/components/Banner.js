@@ -6,7 +6,7 @@ const Banner = (props) => (
         <div className="inner">
             <header className="major">
                 <h1 style={{opacity: "0"}}>Zaxxen</h1>
-                <img src={Logo} alt="Vår logga" width="500" height="auto" style={{filter: "invert()", position: "absolute", top: "-20px"}} ></img>
+                <img src={Logo} alt="Vår logga" width="100%" height="auto" style={{filter: "invert()", position: "absolute", top: "-20px", maxWidth: "500px"}} ></img>
             </header>
             <div className="content">
                 <ul className="actions">
