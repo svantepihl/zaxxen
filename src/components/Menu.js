@@ -8,11 +8,14 @@ const Menu = (props) => (
             <ul className="links">
                 <li><Link onClick={props.onToggleMenu} to="/">Hem</Link></li>
                 <li><Link onClick={props.onToggleMenu} to="/">Priser</Link></li>
-                <li><Link onClick={props.onToggleMenu} to="/">Generic</Link></li>
-                <li><Link onClick={props.onToggleMenu} to="/">Elements</Link></li>
+                <li><Link onClick={props.onToggleMenu} to="/">Tjänster</Link></li>
             </ul>
             <ul className="actions vertical">
                 <li><a href="https://www.bokadirekt.se/places/h%C3%A5ratelj%C3%A9-zaxxen-16138" className="button special fit">BOKA</a></li>
+            </ul>
+            <ul className="icons">
+                <li><a href="https://www.facebook.com/HarateljeZaxxen/" className="icon alt fa-facebook"><span className="label">Facebook</span></a></li>
+                <li><a href="https://www.instagram.com/zaxxen.osby/" className="icon alt fa-instagram"><span className="label">Instagram</span></a></li>
             </ul>
         </div>
         <a className="close" onClick={props.onToggleMenu} href="javascript:;">Close</a>
