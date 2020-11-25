@@ -1,17 +1,17 @@
 import React from 'react'
-
-const BannerLanding = (props) => (
+import { Link } from 'gatsby'
+import leftarrow from '../assets/images/leftarrow.jpg'
+const BannerPriser = (props) => (
     <section id="banner" className="style2">
         <div className="inner">
             <header className="major">
-                <h1>Landing</h1>
+                <h1>Priser</h1>
             </header>
             <div className="content">
-                <p>Lorem ipsum dolor sit amet nullam consequat<br />
-                sed veroeros. tempus adipiscing nulla.</p>
+                <p>Läs om våra priser nedanför</p>
             </div>
         </div>
     </section>
 )
 
-export default BannerLanding
+export default BannerPriser

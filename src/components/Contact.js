@@ -18,8 +18,7 @@ const Contact = (props) => (
                         <textarea name="message" id="message" rows="6"></textarea>
                     </div>
                     <ul className="actions">
-                        <li><input type="submit" value="Send Message" className="special" /></li>
-                        <li><input type="reset" value="Clear" /></li>
+                        <li><input type="submit" value="SKICKA MEDDELANDE" className="special" /></li>
                     </ul>
                 </form>
             </section>
@@ -47,6 +46,9 @@ const Contact = (props) => (
                         283 31, Osby<br />
                         </span>
                         </a>
+                        <p>
+                        måndag-fredag 9-18
+                        </p>
                     </div>
                 </section>
             </section>
