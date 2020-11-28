@@ -2,24 +2,25 @@ import React from 'react'
 
 /*
 <form name="contact" method="POST" data-netlify="true">
-  <p>
-    <label>Your Name: <input type="text" name="name" /></label>   
-  </p>
-  <p>
-    <label>Your Email: <input type="email" name="email" /></label>
-  </p>
-  <p>
-    <label>Your Role: <select name="role[]" multiple>
-      <option value="leader">Leader</option>
-      <option value="follower">Follower</option>
-    </select></label>
-  </p>
-  <p>
-    <label>Message: <textarea name="message"></textarea></label>
-  </p>
-  <p>
-    <button type="submit">Send</button>
-  </p>
+    <div className="field half first">
+        <>Namn</>
+        <input type="text" name="name" id="name" />
+    </div>
+    <div className="field half">
+        <label>E-post</label>
+        <input type="text" name="email" id="email" />
+    </div>
+    <div className="field">
+        <label htmlFor="message">Meddelande</label>
+        <textarea name="message" id="message" rows="6"></textarea>
+    </div>
+    <ul className="actions">
+        <li>
+            <button type="submit" className="special" >
+                SKICKA MEDDELANDE
+            </button>
+        </li>
+    </ul>
 </form>
 */
 
@@ -28,25 +29,24 @@ const Contact = (props) => (
         <div className="inner">
             <section>
                 <form name="contact" method="POST" data-netlify="true">
-                    <div className="field half first">
-                        <>Namn</>
-                        <input type="text" name="name" id="name" />
-                    </div>
-                    <div className="field half">
-                        <label>E-post</label>
-                        <input type="text" name="email" id="email" />
-                    </div>
-                    <div className="field">
-                        <label htmlFor="message">Meddelande</label>
-                        <textarea name="message" id="message" rows="6"></textarea>
-                    </div>
-                    <ul className="actions">
-                        <li>
-                            <button type="submit" className="special" >
-                                MEDDELANDE
-                            </button>
-                        </li>
-                    </ul>
+                    <p>
+                        <label>Your Name: <input type="text" name="name" /></label>   
+                    </p>
+                    <p>
+                        <label>Your Email: <input type="email" name="email" /></label>
+                    </p>
+                    <p>
+                        <label>Your Role: <select name="role[]" multiple>
+                        <option value="leader">Leader</option>
+                        <option value="follower">Follower</option>
+                        </select></label>
+                    </p>
+                    <p>
+                        <label>Message: <textarea name="message"></textarea></label>
+                    </p>
+                    <p>
+                        <button type="submit">Send</button>
+                    </p>
                 </form>
             </section>
             <section className="split">
