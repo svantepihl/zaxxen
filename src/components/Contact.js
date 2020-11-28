@@ -28,20 +28,27 @@ const Contact = (props) => (
     <section id="contact">
         <div className="inner">
             <section>
-                <form name="contact" method="POST" netlify>
-                    <p>
-                        <label>NAMN <input type="text" name="name" /></label>   
-                    </p>
-                    <p>
-                        <label>E-POST <input type="email" name="email" /></label>
-                    </p>
-                    <p>
-                        <label>MEDDELANDE <textarea name="message"></textarea></label>
-                    </p>
-                    <p>
-                        <button type="submit">SKICKA MEDDELANDE</button>
-                    </p>
-                </form>
+            <form name="contact" method="POST">
+                <div className="field half first">
+                    <>Namn</>
+                    <input type="text" name="name" id="name" />
+                </div>
+                <div className="field half">
+                    <label>E-post</label>
+                    <input type="text" name="email" id="email" />
+                </div>
+                <div className="field">
+                    <label htmlFor="message">Meddelande</label>
+                    <textarea name="message" id="message" rows="6"></textarea>
+                </div>
+                <ul className="actions">
+                    <li>
+                        <button type="submit" className="special" >
+                            SKICKA MEDDELANDE
+                        </button>
+                    </li>
+                </ul>
+            </form>
             </section>
             <section className="split">
                 <section>
