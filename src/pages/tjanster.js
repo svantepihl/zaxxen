@@ -35,8 +35,7 @@ const Landing = (props) => (
             </section>
             <section id="two" className="spotlights">
             <section>
-                    <Link to="/generic" className="image"></Link>
-                        <img src={hair} style={{borderRadius:'25px'}}  alt="Bild på vackert hår" />
+                    <img src={hair} className="image" style={{borderRadius:'15px',objectFit:'cover'}}  alt="Bild på vackert hår"/>
                     <div className="content">
                         <div className="inner">
                             <header className="major">
@@ -55,9 +54,7 @@ const Landing = (props) => (
                 </section>
 
                 <section>
-                    <Link to="" className="image">
-                        <img src={products} style={{borderRadius:'25px'}}  alt="Bild på hårprodukter" />
-                    </Link>
+                    <img src={products} className="image" style={{borderRadius:'15px',objectFit:'cover'}}  alt="Bild på hårprodukter" />
                     <div className="content">
                         <div className="inner">
                             <header className="major">

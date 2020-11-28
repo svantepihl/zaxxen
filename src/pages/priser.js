@@ -32,79 +32,293 @@ const Landing = (props) => (
                 </section>
             </section>
             <section id="one">
-                <div className="inner" style={{width:'100%', minWidth:'100vw', height:'100%', minHeight:'100vh'}}>
-                    <div style={{display:'flex',justifyContent:'center',flexWrap:'wrap',marginLeft:'0px',marginRight:'0px'}}>
-                    <div style={{alignSelf:'start',minWidth:'392px'}}>
-                            <header className="major">
-                                <h2>Klippning</h2>
-                            </header>
-                            <p>Klipp: 490 :- </p>
-                            <p>Klipp pensionär: 460:- </p>
-                            <p>Klipp barn 0-6 år: 360:-</p>
-                            <p>Klipp barn 7-12 år: 420:-</p>
-                            <p>Klipp barn 13-15 år: 460:-</p>
-                            <p>Luggklipp: 100:-</p>
-                            <p>Maskinklipp över hela: 390:-</p>
-                            <p>Tvätta och locka: 350:-</p>
-                            <p>Tvätta och föna: 290:-</p>
-                        </div>
-                        <div style={{alignSelf:'start',minWidth:'392px'}}>
-                            <header className="major">
-                                <h2>Slingor</h2>
-                            </header>
-                            <p>Kort fr. 950:- m klipp fr. 1290:- </p>
-                            <p>Mellan fr. 1250:- m klipp fr. 1600:- </p>
-                            <p>Långt fr. 1450:- m klipp fr. 1800:-</p>
+                <div className="inner">
+                    <div className="grid-wrapper">
+                        <div className="col-4">
+                            <div className="table-wrapper">  
+                                <table>
+                                    <thead>
+                                        <h5>Klippning</h5>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            
+                                            <td>Klipp</td>
+                                            <td></td>
+                                            <td>490:-</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Klipp pensionär</td>
+                                            <td></td>
+                                            <td>460:-</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Klipp barn 0-6 år</td>
+                                            <td></td>
+                                            <td>360:-</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Klipp barn 7-12 år</td>
+                                            <td></td>
+                                            <td>420:-</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Klipp barn 13-15 år</td>
+                                            <td></td>
+                                            <td>460:-</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Luggklipp</td>
+                                            <td></td>
+                                            <td>100:-</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Maskinklipp över hela</td>
+                                            <td></td>
+                                            <td>300:-</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Tvätta och locka</td>
+                                            <td></td>
+                                            <td>350:-</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Tvätta och föna</td>
+                                            <td></td>
+                                            <td>290:-</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div className="table-wrapper">  
+                                <table>
+                                    <thead>
+                                        <tr>
+                                            <h5>Permanent inkl. klipp</h5>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td style={{width:'90%'}}>Pensionär</td>
+                                            <td></td>
+                                            <td>1390:-</td>
+                                        </tr>
+                                        <tr>
+                                            <td style={{width:'90%'}}>Kort</td>
+                                            <td></td>
+                                            <td>1490:-</td>
+                                        </tr>
+                                        <tr>
+                                            <td style={{width:'90%'}}>Mellan</td>
+                                            <td></td>
+                                            <td>1690:-</td>
+                                        </tr>
+                                        <tr>
+                                            <td style={{width:'90%'}}>Långt</td>
+                                            <td></td>
+                                            <td>1890:-</td>
+                                        </tr>
 
-                            <header className="major">
-                                <h2>Färg</h2>
-                            </header>
-                            <p>Kort fr. 800:- m klipp fr. 1190:- </p>
-                            <p>Mellan fr. 1050:- m klipp fr. 1400:-</p>
-                            <p>Långt fr. 1250:- m klipp fr. 1600:-</p>
-
-                            <header className="major">
-                                <h2>Avancerad färgning</h2>
-                            </header>
-                            <p> Ombre eller Balayage fr. 1800:- </p>
+                                    </tbody>
+                                </table>
+                            </div>
                         </div>
-                        <div style={{alignSelf:'start',minWidth:'392px'}}>
-                            <header className="major">
-                                <h2>Permanent inkl. <br/>klipp</h2>
-                            </header>
-                            <p>Kort: 1490:- Pensionär: 1390:-</p>
-                            <p>Mellan: 1690:-</p>
-                            <p>Långt: 1890:-</p>
-                            <header className="major">
-                                <h2>Bryn & Fransar</h2>
-                            </header>
-                            <p>Plock: 100:- </p>
-                            <p>Färg: 190:- </p>
-                            <p>Färg fransar: 200:-</p>
-                            <p>Bryn och fransar: 350:- </p>
+                        <div className="col-4">
+                            <div className="table-wrapper">  
+                                <table>
+                                    <thead>
+                                        <tr> 
+                                            <h5>Slingor</h5>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td style={{minWidth:'80%'}}>Kort fr.</td>
+                                            <td></td>
+                                            <td>950:-</td>
+                                        </tr>
+                                        <tr>
+                                            <td style={{width:'90%'}}>Kort m. klipp fr. </td>
+                                            <td></td>
+                                            <td>1290:-</td>
+                                        </tr>
+                                        <tr>
+                                            <td style={{width:'90%'}}> Mellan fr.</td>
+                                            <td></td>
+                                            <td>1250:-</td>
+                                        </tr>
+                                        <tr>
+                                            <td style={{width:'90%'}}>Mellan m. klipp fr.</td>
+                                            <td></td>
+                                            <td>1600:-</td>
+                                        </tr>
+                                        <tr>
+                                            <td style={{width:'90%'}}>Långt fr. </td>
+                                            <td></td>
+                                            <td>1450:-</td>
+                                        </tr>
+                                        <tr>
+                                            <td style={{width:'90%'}}>Långt m. klipp fr. </td>
+                                            <td></td>
+                                            <td>1800:-</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div className="table-wrapper">  
+                                <table>
+                                    <thead>
+                                        <tr>
+                                            <h5>Avancerad färgning</h5>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td style={{width:'90%'}}>Ombre fr.</td>
+                                            <td></td>
+                                            <td>1800:-</td>
+                                        </tr>
+                                        <tr>
+                                            <td style={{width:'90%'}}> Balayage fr.</td>
+                                            <td></td>
+                                            <td>1800:-</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div className="table-wrapper">  
+                                <table>
+                                    <thead>
+                                        <tr>
+                                            <h5>Bryn & fransar</h5>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td style={{width:'90%'}}>Plock</td>
+                                            <td></td>
+                                            <td>100:-</td>
+                                        </tr>
+                                        <tr>
+                                            <td style={{width:'90%'}}>Färg</td>
+                                            <td></td>
+                                            <td>190:-</td>
+                                        </tr>
+                                        <tr>
+                                            <td style={{width:'90%'}}>Färg fransar</td>
+                                            <td></td>
+                                            <td>200:-</td>
+                                        </tr>
+                                        <tr>
+                                            <td style={{width:'90%'}}>Bryn och fransar</td>
+                                            <td></td>
+                                            <td>350:-</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
                         </div>
-                        <div style={{alignSelf:'start',minWidth:'392px'}}>
-                            <header className="major">
-                                <h2>Uppsättning</h2>
-                            </header>
-                            <p>Uppsättning: 1200:- </p>
-                            <p>Lätt Uppsättning: 990:- </p>
-                            <header className="major">
-                                <h2>Hårförlängning</h2>
-                            </header>
-                            <p>Kontakta oss för gratis konsultation </p>
-                            <header className="major">
-                                <h2>Hårförtjockning</h2>
-                            </header>
-                            <p>Kontakta oss för gratis konsultation </p>
+                        <div className="col-4">
+                            <div className="table-wrapper">  
+                                <table>
+                                    <thead>
+                                        <h5>Färg</h5>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td style={{width:'90%'}}>Kort fr. </td>
+                                            <td></td>
+                                            <td>800:-</td>
+                                        </tr>
+                                        <tr>
+                                            <td style={{width:'90%'}}>Kort m. klipp fr. </td>
+                                            <td></td>
+                                            <td>1190:-</td>
+                                        </tr>
+                                        <tr>
+                                            <td style={{width:'90%'}}>Mellan fr. </td>
+                                            <td></td>
+                                            <td>1050:-</td>
+                                        </tr>
+                                        <tr>
+                                            <td style={{width:'90%'}}>Mellan m. klipp fr. </td>
+                                            <td></td>
+                                            <td>1400:-</td>
+                                        </tr>
+                                        <tr>
+                                            <td style={{width:'90%'}}>Långt fr. </td>
+                                            <td></td>
+                                            <td>1450:-</td>
+                                        </tr>
+                                        <tr>
+                                            <td style={{width:'90%'}}>Långt m. klipp fr. </td>
+                                            <td></td>
+                                            <td>1800:-</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div className="table-wrapper">  
+                                <table>
+                                    <thead>
+                                        <tr>
+                                            <h5>Uppsättning</h5>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td style={{width:'90%'}}>Uppsättning fr.</td>
+                                            <td></td>
+                                            <td>1200:-</td>
+                                        </tr>
+                                        <tr>
+                                            <td style={{width:'90%'}}> Lätt uppsättning fr.</td>
+                                            <td></td>
+                                            <td>990:-</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div className="table-wrapper">  
+                                <table>
+                                    <thead>
+                                        <tr>
+                                            <h5>Lashlift</h5>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td style={{width:'90%'}}>Lashlift</td>
+                                            <td></td>
+                                            <td>600:-</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <div className="table-wrapper">  
+                                <table>
+                                    <thead>
+                                        <tr>
+                                            <h5>Hårförlängning & hårförtjockning</h5>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td style={{width:'90%'}}>Kontakta oss för gratis konsultation</td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </section>
             <section id="two" className="spotlights">
                 <section>
-                    <Link to="/generic" className="image">
-                        <img src={products} style={{borderRadius:'25px'}}  alt="Bild på hårprodukter" />
+                    <Link to="/tjanster/" className="image">
+                        <img src={products} style={{borderRadius:'15px'}}  alt="Bild på hårprodukter" />
                     </Link>
                     <div className="content">
                         <div className="inner">

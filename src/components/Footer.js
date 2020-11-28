@@ -9,7 +9,7 @@ const Footer = (props) => (
                 <li style={{position:'absolute',right:'25rem'}}>
                     <p style={{textAlign:'right'}}>
                         Betalning:
-                        Kontakt,
+                        Kontant,
                         Kort,
                         Swish &
                         Klarna 
