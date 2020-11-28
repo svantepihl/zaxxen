@@ -28,7 +28,7 @@ const Contact = (props) => (
     <section id="contact">
         <div className="inner">
             <section>
-                <form name="contact" method="POST" data-netlify="true">
+                <form name="contact" method="POST" netlify>
                     <p>
                         <label>NAMN <input type="text" name="name" /></label>   
                     </p>
