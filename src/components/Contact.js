@@ -28,7 +28,8 @@ const Contact = (props) => (
     <section id="contact">
         <div className="inner">
             <section>
-            <form name="contact" method="POST">
+            <form name="contact" method="POST" data-netlify="true">
+                <input type="hidden" name="form-name" value="contact" />
                 <div className="field half first">
                     <>Namn</>
                     <input type="text" name="name" id="name" />
