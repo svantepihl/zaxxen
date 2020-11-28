@@ -1,16 +1,39 @@
 import React from 'react'
 
+/*
+<form name="contact" method="POST" data-netlify="true">
+  <p>
+    <label>Your Name: <input type="text" name="name" /></label>   
+  </p>
+  <p>
+    <label>Your Email: <input type="email" name="email" /></label>
+  </p>
+  <p>
+    <label>Your Role: <select name="role[]" multiple>
+      <option value="leader">Leader</option>
+      <option value="follower">Follower</option>
+    </select></label>
+  </p>
+  <p>
+    <label>Message: <textarea name="message"></textarea></label>
+  </p>
+  <p>
+    <button type="submit">Send</button>
+  </p>
+</form>
+*/
+
 const Contact = (props) => (
     <section id="contact">
         <div className="inner">
             <section>
                 <form name="contact" method="POST" data-netlify="true">
                     <div className="field half first">
-                        <label htmlFor="name">Namn</label>
+                        <>Namn</>
                         <input type="text" name="name" id="name" />
                     </div>
                     <div className="field half">
-                        <label htmlFor="email">E-post</label>
+                        <label>E-post</label>
                         <input type="text" name="email" id="email" />
                     </div>
                     <div className="field">
@@ -18,7 +41,11 @@ const Contact = (props) => (
                         <textarea name="message" id="message" rows="6"></textarea>
                     </div>
                     <ul className="actions">
-                        <li><input type="submit" value="SKICKA MEDDELANDE" className="special" /></li>
+                        <li>
+                            <button type="submit" className="special" >
+                                MEDDELANDE
+                            </button>
+                        </li>
                     </ul>
                 </form>
             </section>
