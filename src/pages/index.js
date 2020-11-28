@@ -34,14 +34,14 @@ class HomeIndex extends React.Component {
                                 <h3>Priser</h3>
                                 <p>Läs mer</p>
                             </header>
-                            <Link to="/priser" className="link primary"></Link>
+                            <Link to="/priser/" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic02})`}}>
                             <header className="major">
                                 <h3>Tjänster</h3>
                                 <p>Läs mer</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="/tjanster/" className="link primary"></Link>
                         </article>
                     </section>
                     <section id="two">

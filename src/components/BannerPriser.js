@@ -1,14 +1,20 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import leftarrow from '../assets/images/leftarrow.jpg'
+import Logo from "../assets/images/logo.png"
+
 const BannerPriser = (props) => (
-    <section id="banner" className="style2">
+    <section id="banner" className="">
         <div className="inner">
             <header className="major">
-                <h1>Priser</h1>
+                <h1 style={{opacity: "0"}}>Zaxxen, frisör i Osby</h1>
+                <Link to="/">
+                    <img src={Logo} alt="Vår logga" width="100%" height="auto" style={{filter: "invert()", position: "absolute", top: "-20px", maxWidth: "500px"}} ></img>
+                </Link>
             </header>
             <div className="content">
-                <p>Läs om våra priser nedanför</p>
+                <ul className="actions">
+                    <li><a href="https://www.bokadirekt.se/places/h%C3%A5ratelj%C3%A9-zaxxen-16138" className="button scrolly">BOKA TID</a></li>
+                </ul>
             </div>
         </div>
     </section>
