@@ -221,7 +221,7 @@ const Landing = (props) => (
                         <div className="col-4">
                             <div className="table-wrapper">  
                                 <table>
-                                    <thead>
+                                    <thead style={{textDecoration:'underline'}}>
                                         <h5>Färg</h5>
                                     </thead>
                                     <tbody>
@@ -316,9 +316,9 @@ const Landing = (props) => (
                 </div>
             </section>
             <section id="two" className="spotlights">
-                <section>
+                <section style={{backgroundColor:'#F4AA7C'}}>
                     <Link to="/tjanster/" className="image">
-                        <img src={products} style={{borderRadius:'15px'}}  alt="Bild på hårprodukter" />
+                        <img src={products} alt="Bild på hårprodukter" />
                     </Link>
                     <div className="content">
                         <div className="inner">

@@ -26,6 +26,7 @@ import React from 'react'
 
 const Contact = (props) => (
     <section id="contact">
+        <hr style={{marginBottom:'0px',marginTop:'0px'}}></hr>
         <div className="inner">
             <section>
             <form name="contact" method="POST" data-netlify="true" >
@@ -44,7 +45,7 @@ const Contact = (props) => (
                 </div>
                 <ul className="actions">
                     <li>
-                        <button type="submit" className="special" >
+                        <button type="submit" className="" >
                             SKICKA MEDDELANDE
                         </button>
                     </li>

@@ -30,19 +30,25 @@
 
 // Palette.
 	$palette: (
-		bg:					#6D6875,
+		black: 				black,
+		bg:					#F4AA7C,
+		// old bg #6D6875
 		banner-col:			#ffcdb265,
-		bg-alt:				#6D6875,
+		bg-alt:				#ffb080,
+		// old bg-alt 6D6875
+		bg-orange:			#F4AA7C,
 		fg:					#ffffff,
 		fg-bold:			#ffffff,
-		fg-light:			rgba(244,244,255,0.2),
-		border:				rgba(212,212,255,0.1),
-		border-bg:			rgba(212,212,255,0.035),
+		fg-light:			rgba(244,244,255,0.3),
+		border:				rgba(212,212,255,0.4),
+		border-bg:			rgba(212,212,255,0.04),
 		highlight:			#FFCDB2,
 		accent1:			#FFCDB2,
 		accent2:			#B5838D,
 		accent3:			#ec8d81,
 		accent4:			#e7b788,
 		accent5:			#8ea9e8,
-		accent6:			#87c5a4
+		accent6:			#87c5a4,
+		contact_box:		rgba(255, 255, 255, 0.05)
+
 	);

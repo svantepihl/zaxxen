@@ -19,7 +19,7 @@ const Landing = (props) => (
 
         <div id="main">
             <section className="spotlights">
-                <section style={{paddingTop:'3rem',paddingBottom:'1.5rem', backgroundColor:'#6D6875'}}>
+                <section style={{paddingTop:'3rem',paddingBottom:'1.5rem'}}>
                     <div className="content" style={{display:'flex',justifyContent:'center',flexDirection:'column',marginLeft:'auto',marginRight:'auto', paddingBottom:'30px'}}>
                         <div className="inner" style={{display:'flex',justifyContent:'center',flexDirection:'column',margin:'0 auto 0 auto'}}>
                             <header className="major" style={{textAlign:'center', width:'100%'}}>
@@ -34,8 +34,8 @@ const Landing = (props) => (
                 </section>
             </section>
             <section id="two" className="spotlights">
-            <section>
-                    <img src={hair} className="image" style={{borderRadius:'15px',objectFit:'cover'}}  alt="Bild på vackert hår"/>
+            <section style={{backgroundColor:'#F4AA7C'}}>
+                    <img src={hair} height="width" className="image" style={{borderRadius:'0px',objectFit:'cover'}}  alt="Bild på vackert hår"/>
                     <div className="content">
                         <div className="inner">
                             <header className="major">
@@ -54,8 +54,8 @@ const Landing = (props) => (
                 </section>
 
                 <section>
-                    <img src={products} className="image" style={{borderRadius:'15px',objectFit:'cover'}}  alt="Bild på hårprodukter" />
-                    <div className="content">
+                    <img src={products} className="image" style={{borderRadius:'0px',objectFit:'cover', backgroundColor:'#F4AA7C'}}  alt="Bild på hårprodukter"/>
+                    <div className="content" style={{}}>
                         <div className="inner">
                             <header className="major">
                                 <h3>Produkter</h3>
