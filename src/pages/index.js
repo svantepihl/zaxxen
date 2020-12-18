@@ -4,14 +4,6 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import Banner from '../components/Banner'
 
-import pic01 from '../assets/images/pic01.jpg'
-import pic02 from '../assets/images/pic02.jpg'
-import omoss from '../assets/images/om-oss.gif'
-import alla from  '../assets/images/staff/alla.png'
-/* import pic03 from '../assets/images/pic03.jpg'
-import pic04 from '../assets/images/pic04.jpg'
-import pic05 from '../assets/images/pic05.jpg'
-import pic06 from '../assets/images/pic06.jpg' */
 
 class HomeIndex extends React.Component {
     render() {
@@ -30,43 +22,6 @@ class HomeIndex extends React.Component {
                 <Banner />
 
                 <div id="main">
-                    <section id="one" className="tiles">
-                        <article style={{backgroundImage: `url(${pic01})`}}>
-                            <header className="major">
-                                <h3>Priser</h3>
-                                <p>Läs mer</p>
-                            </header>
-                            <Link to="/priser/" className="link primary"></Link>
-                        </article>
-                        <article style={{backgroundImage: `url(${pic02})`}}>
-                            <header className="major">
-                                <h3>Tjänster</h3>
-                                <p>Läs mer</p>
-                            </header>
-                            <Link to="/tjanster/" className="link primary"></Link>
-                        </article>
-                        <article style={{backgroundImage: `url(${pic01})`}}>
-                            <header className="major">
-                                <h3>Peruker & Tupeér</h3>
-                                <p>Läs mer</p>
-                            </header>
-                            <Link to="/priser/" className="link primary"></Link>
-                        </article>
-                        <article style={{backgroundImage: `url(${pic02})`}}>
-                            <header className="major">
-                                <h3>Lashlift</h3>
-                                <p>Läs mer</p>
-                            </header>
-                            <Link to="/tjanster/" className="link primary"></Link>
-                        </article>
-                        <article style={{backgroundImage: `url(${alla})`,backgroundRepeat:'repeat', minWidth:'100%',backgroundPosition:'center top',maxHeight:'360px',height:'360px',backgroundSize:'contain'}}>
-                            <header className="major">
-                                <h3>Om Oss</h3>
-                                <p>Läs mer</p>
-                            </header>
-                            <Link to="/om-oss/" className="link primary"></Link>
-                        </article>
-                    </section>
                     <section id="three">
                          <div className="inner">
                              <header className="major">
