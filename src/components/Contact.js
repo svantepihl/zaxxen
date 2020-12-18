@@ -1,29 +1,5 @@
 import React from 'react'
 
-/*
-<form name="contact" method="POST" data-netlify="true">
-    <div className="field half first">
-        <>Namn</>
-        <input type="text" name="name" id="name" />
-    </div>
-    <div className="field half">
-        <label>E-post</label>
-        <input type="text" name="email" id="email" />
-    </div>
-    <div className="field">
-        <label htmlFor="message">Meddelande</label>
-        <textarea name="message" id="message" rows="6"></textarea>
-    </div>
-    <ul className="actions">
-        <li>
-            <button type="submit" className="special" >
-                SKICKA MEDDELANDE
-            </button>
-        </li>
-    </ul>
-</form>
-*/
-
 const Contact = (props) => (
     <section id="contact">
         <hr style={{marginBottom:'0px',marginTop:'0px'}}></hr>
