@@ -33,15 +33,15 @@ const Contact = (props) => (
                 <input type="hidden" name="form-name" value="contact" />
                 <div className="field half first">
                     <label>Namn</label>
-                    <input type="text" name="name" id="name" />
+                    <input type="text" name="name" id="name" style={{textDecorationColor:'black'}}/>
                 </div>
                 <div className="field half">
                     <label>E-post</label>
-                    <input type="text" name="email" id="email" />
+                    <input type="text" name="email" id="email" style={{textDecorationColor:'black'}}/>
                 </div>
                 <div className="field">
                     <label htmlFor="message">Meddelande</label>
-                    <textarea name="message" id="message" rows="6"></textarea>
+                    <textarea name="message" id="message" rows="6" style={{textDecorationColor:'black'}}></textarea>
                 </div>
                 <ul className="actions">
                     <li>
