@@ -37,12 +37,12 @@ const Landing = (props) => (
                                 <h1>Om oss</h1>
                             </header>
                             <div style={{textAlign:'center',marginRight:'auto',marginLeft:'auto'}}>
-                                <h3>
+                                <p style={{fontSize:'1rem'}}>
                                 Vi ser till att du får en upplevelse när du kommer till oss, vi vill ge kunden allt från en bra service till en härlig skön stund hos oss. Vi vill skapa något just för dig och vara kreativa när du gör ett besök hos oss. <br/>
                                 Vi utvecklas och utbildar oss för att få bredare kunskap inom skönhet och vårt hantverk. Genom åren har vi möts av ett mode som förändras med stormsteg, då har vi tagit greppet om det och skapat det på vårt vis med vår erfarenhet. <br/>
                                 Maggan startade Zaxxen för 20 år sedan och har många års erfarenhet inom yrket. Idag brinner vi för att hjälpa andra människor med sitt hår. Det gäller både peruker och människor som är i behov av till hårdelar och även tupeér för män. Idag är vi fler i vårt team och vi kompletterar varandra på alla möjliga plan. Vår ambition är att drivas framåt tillsammans med ambitionen om att varje dag är en ny utmaning där vi tillgodo ser kundens förväntningar och önskemål. Vi är nyfikna och lyhörda där vi tar ansvar och hittar lösningar. <br/>
                                 Vi har träffat många kunder och vi är tacksamma för att vi får vara kreativa med er, låt oss skapa ditt JAG!
-                                </h3>
+                                </p>
                             </div>
                             <video controls width="414px" style={{margin:'1rem auto 1rem auto', maxWidth:'100%'}}>
                                 <source src={mp4} type="video/mp4"/>

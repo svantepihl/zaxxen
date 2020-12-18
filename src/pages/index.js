@@ -46,14 +46,14 @@ class HomeIndex extends React.Component {
                                 <h3>Peruker & Tupeér</h3>
                                 <p>Läs mer</p>
                             </header>
-                            <Link to="/priser/" className="link primary"></Link>
+                            <Link to="/peruk-tupe/" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic02})`}}>
                             <header className="major">
                                 <h3>Lashlift</h3>
                                 <p>Läs mer</p>
                             </header>
-                            <Link to="/tjanster/" className="link primary"></Link>
+                            <Link to="/lashlift/" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${alla})`,backgroundRepeat:'repeat', minWidth:'100%',backgroundPosition:'center top',maxHeight:'360px',height:'360px',backgroundSize:'contain'}}>
                             <header className="major">
