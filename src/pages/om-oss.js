@@ -10,12 +10,12 @@ import mp4 from '../assets/video/om-oss.mp4'
 import webm from '../assets/video/om-oss.webm'
 
 // STAFF
-import maggan from '../assets/images/staff/maggan.png'
-import frida from '../assets/images/staff/frida.png'
-import jenna from '../assets/images/staff/jenna.png'
-import malin from '../assets/images/staff/malin.png'
-import my from '../assets/images/staff/my.png'
-import nea from '../assets/images/staff/nea.png'
+import maggan from '../assets/images/staff/Maggan.png'
+import frida from '../assets/images/staff/Frida.png'
+import jenna from '../assets/images/staff/Jenna.png'
+import malin from '../assets/images/staff/Malin.png'
+import my from '../assets/images/staff/My.png'
+import nea from '../assets/images/staff/Nea.png'
 
 
 
