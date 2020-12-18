@@ -38,63 +38,63 @@ const Landing = (props) => (
                             <div className="table-wrapper">  
                                 <table>
                                     <thead>
-                                        <h5>Klippning</h5>
+                                        <h3>Klippning</h3>
                                     </thead>
                                     <tbody>
                                         <tr>
                                             
-                                            <td>Klipp</td>
+                                            <td style={{width:'90%'}}>Klipp</td>
                                             <td></td>
                                             <td>490:-</td>
                                         </tr>
                                         <tr>
-                                            <td>Klipp pensionär</td>
+                                            <td style={{width:'90%'}}>Klipp pensionär</td>
                                             <td></td>
                                             <td>460:-</td>
                                         </tr>
                                         <tr>
-                                            <td>Klipp barn 0-6 år</td>
+                                            <td style={{width:'90%'}}>Klipp barn 0-6 år</td>
                                             <td></td>
                                             <td>360:-</td>
                                         </tr>
                                         <tr>
-                                            <td>Klipp barn 7-12 år</td>
+                                            <td style={{width:'90%'}}>Klipp barn 7-12 år</td>
                                             <td></td>
                                             <td>420:-</td>
                                         </tr>
                                         <tr>
-                                            <td>Klipp barn 13-15 år</td>
+                                            <td style={{width:'90%'}}>Klipp barn 13-15 år</td>
                                             <td></td>
                                             <td>460:-</td>
                                         </tr>
                                         <tr>
-                                            <td>Luggklipp</td>
+                                            <td style={{width:'90%'}}>Luggklipp</td>
                                             <td></td>
                                             <td>100:-</td>
                                         </tr>
                                         <tr>
-                                            <td>Maskinklipp över hela</td>
+                                            <td style={{width:'90%'}}>Maskinklipp över hela</td>
                                             <td></td>
                                             <td>300:-</td>
                                         </tr>
                                         <tr>
-                                            <td>Tvätta och locka</td>
+                                            <td style={{width:'90%'}}>Tvätta och locka</td>
                                             <td></td>
                                             <td>350:-</td>
                                         </tr>
                                         <tr>
-                                            <td>Tvätta och föna</td>
+                                            <td style={{width:'90%'}}>Tvätta och föna</td>
                                             <td></td>
                                             <td>290:-</td>
                                         </tr>
                                     </tbody>
                                 </table>
                             </div>
-                            <div className="table-wrapper">  
+                            <div className="table-wrapper" style={{marginTop:'22px'}}>  
                                 <table>
                                     <thead>
                                         <tr>
-                                            <h5>Permanent inkl. klipp</h5>
+                                            <h3><strong>Permanent inkl. klipp</strong></h3>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -128,7 +128,7 @@ const Landing = (props) => (
                                 <table>
                                     <thead>
                                         <tr> 
-                                            <h5>Slingor</h5>
+                                            <h3>Slingor</h3>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -169,7 +169,7 @@ const Landing = (props) => (
                                 <table>
                                     <thead>
                                         <tr>
-                                            <h5>Avancerad färgning</h5>
+                                            <h3>Avancerad färgning</h3>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -190,7 +190,7 @@ const Landing = (props) => (
                                 <table>
                                     <thead>
                                         <tr>
-                                            <h5>Bryn & fransar</h5>
+                                            <h3>Bryn & fransar</h3>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -221,8 +221,8 @@ const Landing = (props) => (
                         <div className="col-4">
                             <div className="table-wrapper">  
                                 <table>
-                                    <thead style={{textDecoration:'underline'}}>
-                                        <h5>Färg</h5>
+                                    <thead>
+                                        <h3>Färg</h3>
                                     </thead>
                                     <tbody>
                                         <tr>
@@ -262,7 +262,7 @@ const Landing = (props) => (
                                 <table>
                                     <thead>
                                         <tr>
-                                            <h5>Uppsättning</h5>
+                                            <h3>Uppsättning</h3>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -283,7 +283,7 @@ const Landing = (props) => (
                                 <table>
                                     <thead>
                                         <tr>
-                                            <h5>Lashlift</h5>
+                                            <h3>Lashlift</h3>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -294,11 +294,11 @@ const Landing = (props) => (
                                         </tr>
                                     </tbody>
                                 </table>
-                                <div className="table-wrapper">  
+                                <div className="table-wrapper" style={{marginTop:'-1px'}}>  
                                 <table>
                                     <thead>
                                         <tr>
-                                            <h5>Hårförlängning & hårförtjockning</h5>
+                                            <h3>Förlänings & förtjockning</h3>
                                         </tr>
                                     </thead>
                                     <tbody>
