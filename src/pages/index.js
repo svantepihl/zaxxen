@@ -18,7 +18,7 @@ class HomeIndex extends React.Component {
                     title="Zaxxen"
                     meta={[
                         { name: 'description', content: 'En charmig frisörssalong mitt i centrala Osby. Vi erbjuder allt inom hår & makeup.' },
-                        { name: 'keywords', content: 'Osby,Skåne, Frisör, Hairdresser, Toupée ,Tupé, Wig, Peruk, Makeup, Hair, Bröllop, Styling' },
+                        { name: 'keywords', content: 'Osby,Skåne, Frisör, Hairdresser, Toupée ,Tupé, Wig, Peruk, Makeup, Hair, Bröllop, Styling, Norra Skåne' },
                     ]}
                 >
                 </Helmet>
