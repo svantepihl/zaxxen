@@ -35,29 +35,52 @@ const Landing = (props) => (
             </section>
             <section id="two" className="spotlights">
             <section style={{backgroundColor:'#F4AA7C'}}>
-            <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Og423-iUPSI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="560" height="415" src="https://www.youtube-nocookie.com/embed/Og423-iUPSI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     <div className="content">
                         <div className="inner">
                             <header className="major">
-                                <h3>Text om tupe & peruker</h3>
+                                <h3>Peruker</h3>
                             </header>
                             <p> 
-                                text om videon and peruker/tupéer
+                            Är du i behov av peruk på grund utav cellgiftsbehandling eller annan orsak? Jag (Maggan) finns här och tar hand om dig. I en avskild och trygg miljö med fantastiska peruker får du ett vackert och naturligt resultat utfört av utbildad peruktekniker. Vi säljer alla tillbehör och skötselprodukter till peruker.
+                            </p>
+                            <p>
+                                Jag tar rekvisitioner från alla regioner. 
+                            </p>
+                            <p>
+                                Vi är återförsäljare av <a href="https://www.christineheadwear.com/christine-lookbook-en/">turbaner från Christine</a>
                             </p>
                         </div>
                     </div>
                 </section>
 
                 <section>
-                <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/rIKLXJ6vLH0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="560" height="415" src="https://www.youtube-nocookie.com/embed/rIKLXJ6vLH0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     <div className="content" style={{}}>
                         <div className="inner">
                             <header className="major">
-                                <h3>Text om tupe & peruker</h3>
+                                <h3>Hårersättning</h3>
                             </header>
                             <p> 
-                                text om videon and peruker/tupéer
+                                Är du tunnhårig eller lider av kala fläckar? Med moderna metoder så hjälper vi dig med hårersättning. 
                             </p>
+                        </div>
+                    </div>
+                </section>
+
+                <section>
+                    <Link to="/tjanster/" className="image">
+                        <img src={products} alt="Bild på hårprodukter" />
+                    </Link>
+                    <div className="content">
+                        <div className="inner">
+                            <header className="major">
+                                <h3>Våra tjänster & Produkter</h3>
+                            </header>
+                            <p>Läs mer om de andra tjänster vi erbjuder och vilka produkter vi arbetar med.</p>
+                            <ul className="actions">
+                                <li><Link to="/tjanster/" className="button">Läs mer</Link></li>
+                            </ul>
                         </div>
                     </div>
                 </section>

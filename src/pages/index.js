@@ -4,9 +4,12 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import Banner from '../components/Banner'
 
+import tjanster from '../assets/images/tjanster.png'
+import wigs from '../assets/images/wigs.png'
+
 import pic01 from '../assets/images/pic01.jpg'
 import pic02 from '../assets/images/pic02.jpg'
-import alla from  '../assets/images/staff/alla.png'
+import alla from  '../assets/images/staff/alla-alt.png'
 
 
 class HomeIndex extends React.Component {
@@ -34,28 +37,22 @@ class HomeIndex extends React.Component {
                             </header>
                             <Link to="/priser/" className="link primary"></Link>
                         </article>
-                        <article style={{backgroundImage: `url(${pic02})`}}>
+                        <article style={{backgroundImage: `url(${tjanster})`}}>
                             <header className="major">
                                 <h3>Tjänster</h3>
                                 <p>Läs mer</p>
                             </header>
                             <Link to="/tjanster/" className="link primary"></Link>
                         </article>
-                        <article style={{backgroundImage: `url(${pic01})`}}>
+                        <article style={{backgroundImage: `url(${wigs})`}}>
                             <header className="major">
                                 <h3>Peruker & Tupeér</h3>
                                 <p>Läs mer</p>
                             </header>
                             <Link to="/peruk-tupe/" className="link primary"></Link>
                         </article>
-                        <article style={{backgroundImage: `url(${pic02})`}}>
-                            <header className="major">
-                                <h3>Lashlift</h3>
-                                <p>Läs mer</p>
-                            </header>
-                            <Link to="/lashlift/" className="link primary"></Link>
-                        </article>
-                        <article style={{backgroundImage: `url(${alla})`,backgroundRepeat:'repeat', minWidth:'100%',backgroundPosition:'center top',maxHeight:'360px',height:'360px',backgroundSize:'contain'}}>
+                        <article style={{backgroundImage: `url(${alla})`,backgroundRepeat:'none',maxHeight:'contain',height:'contain',backgroundSize:'cover'}}>
+                            <img src={alla} className="image" style={{visibility:'hidden'}}  alt="Bild på Malin"/>
                             <header className="major">
                                 <h3>Om Oss</h3>
                                 <p>Läs mer</p>

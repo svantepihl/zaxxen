@@ -9,6 +9,7 @@ const Menu = (props) => (
                 <li><Link onClick={props.onToggleMenu} to="/">Hem</Link></li>
                 <li><Link onClick={props.onToggleMenu} to="/priser">Priser</Link></li>
                 <li><Link onClick={props.onToggleMenu} to="/tjanster">Tjänster</Link></li>
+                <li><Link onClick={props.onToggleMenu} to="/om-oss">Om oss</Link></li>
             </ul>
             <ul className="actions vertical">
                 <li><a href="https://www.bokadirekt.se/places/h%C3%A5ratelj%C3%A9-zaxxen-16138" className="button special fit">BOKA</a></li>
