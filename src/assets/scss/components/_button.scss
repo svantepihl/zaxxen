@@ -111,12 +111,12 @@
 			color: _palette(bg);
 
 			&:hover, &:active {
-				background-color: _palette(highlight);
+				background-color: _palette(menu-highlight);
 				color: _palette(bg) !important;
 			}
 
 			&:active {
-				background-color: desaturate(darken(_palette(highlight), 15), 5);
+				background-color: desaturate(darken(_palette(menu-highlight), 15), 5);
 			}
 		}
 

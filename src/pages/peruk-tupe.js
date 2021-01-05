@@ -34,7 +34,7 @@ const Landing = (props) => (
                 </section>
             </section>
             <section id="two" className="spotlights">
-            <section style={{backgroundColor:'#F4AA7C'}}>
+            <section>
             <iframe width="560" height="415" src="https://www.youtube-nocookie.com/embed/Og423-iUPSI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     <div className="content">
                         <div className="inner">

@@ -31,18 +31,23 @@
 // Palette.
 	$palette: (
 		black: 				black,
-		bg:					#F39D68,
+		//bg:					#F39D68,
+		bg:					#725D68,
 		// old bg #6D6875
 		banner-col:			#ffcdb265,
-		bg-alt:				#FFA770,
+		//bg-alt:				#FFA770,
+		bg-alt:				#725D68,
 		// old bg-alt 6D6875
-		bg-orange:			#F39D68,
+		//bg-orange:			#F39D68,
+		bg-orange:			#725D68,
 		fg:					#ffffff,
 		fg-bold:			#ffffff,
 		fg-light:			rgba(244,244,255,0.3),
 		border:				rgba(212,212,255,0.4),
 		border-bg:			rgba(212,212,255,0.04),
-		highlight:			#FFCDB2,
+		//highlight:			#FFCDB2,
+		highlight:			#725D68,
+		menu-highlight:		#FFCDB2,
 		accent1:			#FFCDB2,
 		accent2:			#B5838D,
 		accent3:			#ec8d81,

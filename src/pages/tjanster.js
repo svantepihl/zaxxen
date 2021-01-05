@@ -18,6 +18,8 @@ const Landing = (props) => (
         <BannerPriser />
 
         <div id="main">
+
+
             <section className="spotlights">
                 <section style={{paddingTop:'3rem',paddingBottom:'1.5rem'}}>
                     <div className="content" style={{display:'flex',justifyContent:'center',flexDirection:'column',marginLeft:'auto',marginRight:'auto', paddingBottom:'30px'}}>
@@ -33,25 +35,51 @@ const Landing = (props) => (
                     </div>
                 </section>
             </section>
-            <section id="two" className="spotlights">
-            <section style={{backgroundColor:'#F4AA7C'}}>
-                    <img src={hair} height="width" className="image" style={{borderRadius:'0px',objectFit:'cover'}}  alt="Bild på vackert hår"/>
-                    <div className="content">
-                        <div className="inner">
-                            <header className="major">
-                                <h3>Allt inom hår</h3>
-                            </header>
-                            <p> 
-                                Här ska det stå en text om där vi inkluderar: <br/>
-                                Allt inom hår! <br/>
-                                Lashlift <br/>
-                                Hårförlängning/Hårförtjockning <br/>
-                                Peruker & Hårersättning/Tupeér <br/>
-                                Rekvisitioner
-                            </p>
-                        </div>
+
+            <div className="inner">
+                <div className="grid-wrapper">
+                    <div className="col-4">
+                        <header className="major">
+                            <h3>Allt inom hår</h3>
+                        </header>
+                        <p>Vi gör alla behandlingar, klipper, färgar, slingar, balayage, ombre, osv.</p>
                     </div>
-                </section>
+                    <div className="col-4">
+                    <header className="major">
+                            <h3>Lashlift</h3>
+                        </header>
+                        <p>Lashlift - få naturligt böjda fransar i upp till 3 månader! Rekommenderas att göras om var 6e vecka för bästa resultat. Fransarna böjs och färgas för ett naturligt resultat. Detta gör att de ser längre och fylligare ut. Inkluderar även keratinbehandling.</p>
+                    </div>
+                    <div className="col-4">
+                    <header className="major">
+                            <h3>Hårförlängning/Hårförtjockning</h3>
+                        </header>
+                        <p>Skapa volym och ge dig själv en naturlig look med hårförlängning/hårförtjockning. Vi arbetar med märken så som: Hairtalk, Simply natural, Mago.</p>
+                    </div>
+                    <div className="col-4">
+                        <header className="major">
+                            <h3>Peruker</h3>
+                        </header>
+                        <p>Är du i behov av peruk på grund utav cellgiftsbehandling eller annan orsak? I en avskild och trygg miljö med fantastiska peruker får du ett vackert och naturligt resultat utfört av utbildad peruktekniker. Vi säljer alla tillbehör och skötselprodukter till peruker.
+                        </p>
+                    </div>
+                    <div className="col-4">
+                    <header className="major">
+                            <h3>Hårersättning</h3>
+                        </header>
+                        <p>Är du tunnhårig eller lider av kala fläckar? Med moderna metoder så hjälper vi dig med hårersättning.</p>
+                    </div>
+                    <div className="col-4">
+                    <header className="major">
+                            <h3>Hårbottenanalys</h3>
+                        </header>
+                        <p>Gör en analys av hårbottens och hårsäckarnas skick med hjälp av en hårbottenanalys med mikrokamera. Med hjälp av vår analys kan vi förebygga och behandla håravfall och klåda.</p>
+                    </div>
+                </div>
+                
+            </div>
+
+            <section id="two" className="spotlights">
 
                 <section>
                     <img src={products} className="image" style={{borderRadius:'0px',objectFit:'cover', backgroundColor:'#F4AA7C'}}  alt="Bild på hårprodukter"/>

@@ -16,8 +16,8 @@ const Landing = (props) => (
         <Banner />
 
         <div id="main">
-        <section className="spotlights" style={{backgroundColor:'#725D68'}}>
-                <section style={{backgroundColor:'#725D68'}}>
+        <section className="spotlights">
+                <section>
                     <div className="content" style={{display:'flex',justifyContent:'center',flexDirection:'column',marginLeft:'auto',marginRight:'auto', paddingBottom:'30px'}}>
                         <div className="inner" style={{display:'flex',justifyContent:'center',flexDirection:'column',margin:'0 auto 0 auto'}}>
                             <header className="major" style={{textAlign:'center', width:'100%'}}>
@@ -31,7 +31,7 @@ const Landing = (props) => (
                     </div>
                 </section>
             </section>
-            <section id="one" style={{backgroundColor:'#725D68'}}>
+            <section id="one">
                 <div className="inner">
                     <div className="grid-wrapper">
                         <div className="col-4">
@@ -316,7 +316,7 @@ const Landing = (props) => (
                 </div>
             </section>
             <section id="two" className="spotlights">
-                <section style={{backgroundColor:'#F4AA7C'}}>
+                <section>
                     <Link to="/tjanster/" className="image">
                         <img src={products} alt="Bild på hårprodukter" />
                     </Link>
