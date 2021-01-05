@@ -51,7 +51,7 @@ class HomeIndex extends React.Component {
                             </header>
                             <Link to="/peruk-tupe/" className="link primary"></Link>
                         </article>
-                        <article style={{backgroundImage: `url(${alla})`,backgroundRepeat:'none',maxHeight:'contain',height:'contain',backgroundSize:'cover'}}>
+                        <article style={{backgroundImage: `url(${alla})`}}>
                             <img src={alla} className="image" style={{visibility:'hidden'}}  alt="Bild på Malin"/>
                             <header className="major">
                                 <h3>Om Oss</h3>
