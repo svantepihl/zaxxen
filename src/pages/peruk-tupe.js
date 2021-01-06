@@ -23,7 +23,7 @@ const Landing = (props) => (
                     <div className="content" style={{display:'flex',justifyContent:'center',flexDirection:'column',marginLeft:'auto',marginRight:'auto', paddingBottom:'30px'}}>
                         <div className="inner" style={{display:'flex',justifyContent:'center',flexDirection:'column',margin:'0 auto 0 auto'}}>
                             <header className="major" style={{textAlign:'center', width:'100%'}}>
-                                <h1>Peruker & Tupéer</h1>
+                                <h1>Peruker & Hårersättning</h1>
                             </header>
                             <p style={{textAlign:'center'}}>Nedanför kan du läsa mer peruker och tupéer och vad vi kan hjälpa till med.....</p>
                             <ul className="actions" style={{display:'flex',justifyContent:'center',flexDirection:'column',marginLeft:'auto',marginRight:'auto'}}>
@@ -35,7 +35,7 @@ const Landing = (props) => (
             </section>
             <section id="two" className="spotlights">
             <section>
-            <iframe width="560" height="415" src="https://www.youtube-nocookie.com/embed/Og423-iUPSI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="560" height="415" style={{maxWidth:'100%'}} src="https://www.youtube-nocookie.com/embed/Og423-iUPSI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     <div className="content">
                         <div className="inner">
                             <header className="major">
@@ -55,7 +55,7 @@ const Landing = (props) => (
                 </section>
 
                 <section>
-                <iframe width="560" height="415" src="https://www.youtube-nocookie.com/embed/rIKLXJ6vLH0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="560" height="415" style={{maxWidth:'100%'}} src="https://www.youtube-nocookie.com/embed/rIKLXJ6vLH0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     <div className="content" style={{}}>
                         <div className="inner">
                             <header className="major">

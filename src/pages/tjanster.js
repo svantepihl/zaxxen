@@ -7,6 +7,8 @@ import BannerPriser from '../components/BannerPriser'
 import products from '../assets/images/products.jpg'
 import hair from '../assets/images/hair.jpg'
 
+// TJÄNSTER
+import scalpAfter from '../assets/images/tjanster/scalpAfter.jpg'
 
 const Landing = (props) => (
     <Layout>
@@ -103,6 +105,15 @@ const Landing = (props) => (
                                 <h3>Hårbottenanalys</h3>
                             </header>
                             <p>Gör en analys av hårbottens och hårsäckarnas skick med hjälp av en hårbottenanalys med mikrokamera. Med hjälp av vår analys kan vi förebygga och behandla håravfall och klåda.</p>
+                        </div>
+                    </div>
+                    <div className="col-12">
+                        <div className="box alt">
+                            <div className="grid-wrapper">
+                                <div className="col-4"><span className="image fit"><img src={scalpAfter} alt="" /></span></div>
+                                <div className="col-4"><span className="image fit"><img src={hair} alt="" /></span></div>
+                                <div className="col-4"><span className="image fit"><img src={hair} alt="" /></span></div>
+                            </div>
                         </div>
                     </div>
                 </div>

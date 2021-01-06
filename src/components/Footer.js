@@ -6,7 +6,7 @@ const Footer = (props) => (
             <ul className="icons">
                 <li><a href="https://www.facebook.com/HarateljeZaxxen/" className="icon alt fa-facebook"><span className="label">Facebook</span></a></li>
                 <li><a href="https://www.instagram.com/zaxxen.osby/" className="icon alt fa-instagram"><span className="label">Instagram</span></a></li>
-                <li style={{position:'absolute',right:'25rem'}}>
+                <li style={{float:'right'}}>
                     <p style={{textAlign:'right'}}>
                         Betalning:
                         Kontant,

@@ -39,24 +39,30 @@ const Landing = (props) => (
                             <header className="major" style={{textAlign:'center', width:'70%',marginLeft:'auto',marginRight:'auto'}}>
                                 <h1>Om oss</h1>
                             </header>
-                            <div style={{display:'flex',justifyContent:'center',flexDirection:'row',flexWrap:'none'}}>
-                            <video controls width="414px" height="414px" style={{maxWidth:'50%',margin:'1rem auto 1rem auto'}}>
-                                <source src={mp4} type="video/mp4"/>
-                                <source src={webm} type="video/webm"/>
+                            <div className="grid-wrapper">
+                                <div className="col-6">
+                                    <div style={{display:'flex',justifyContent:'center'}}>
+                                        <video controls width="414px" height="414px" style={{maxWidth:'90%',marginRight:'0'}}>
+                                            <source src={mp4} type="video/mp4"/>
+                                            <source src={webm} type="video/webm"/>
 
-                                <script>
-                                    var video = document.currentScript.parentElement;
-                                    video.volume = 0.1;
-                                </script>
-                            </video>
-                            <div style={{textAlign:'left',marginRight:'.5rem',marginLeft:'.5rem',width:'50%'}}>
-                                <p style={{fontSize:'1rem'}}>
-                                Vi ser till att du får en upplevelse när du kommer till oss, vi vill ge kunden allt från en bra service till en härlig skön stund hos oss. Vi vill skapa något just för dig och vara kreativa när du gör ett besök hos oss. <br/>
-                                Vi utvecklas och utbildar oss för att få bredare kunskap inom skönhet och vårt hantverk. Genom åren har vi möts av ett mode som förändras med stormsteg, då har vi tagit greppet om det och skapat det på vårt vis med vår erfarenhet. <br/>
-                                Maggan startade Zaxxen för 20 år sedan och har många års erfarenhet inom yrket. Idag brinner vi för att hjälpa andra människor med sitt hår. Det gäller både peruker och människor som är i behov av till hårdelar och även tupeér för män. Idag är vi fler i vårt team och vi kompletterar varandra på alla möjliga plan. Vår ambition är att drivas framåt tillsammans med ambitionen om att varje dag är en ny utmaning där vi tillgodo ser kundens förväntningar och önskemål. Vi är nyfikna och lyhörda där vi tar ansvar och hittar lösningar. <br/>
-                                Vi har träffat många kunder och vi är tacksamma för att vi får vara kreativa med er, låt oss skapa ditt JAG!
-                                </p>
-                            </div>
+                                            <script>
+                                                var video = document.currentScript.parentElement;
+                                                video.volume = 0.1;
+                                            </script>
+                                        </video>
+                                    </div>
+                                </div>
+                                <div className="col-6">
+                                    <div style={{textAlign:'left',marginRight:'.5rem',marginLeft:'.5rem'}}>
+                                        <p style={{fontSize:'1rem'}}>
+                                        Vi ser till att du får en upplevelse när du kommer till oss, vi vill ge kunden allt från en bra service till en härlig skön stund hos oss. Vi vill skapa något just för dig och vara kreativa när du gör ett besök hos oss. <br/>
+                                        Vi utvecklas och utbildar oss för att få bredare kunskap inom skönhet och vårt hantverk. Genom åren har vi möts av ett mode som förändras med stormsteg, då har vi tagit greppet om det och skapat det på vårt vis med vår erfarenhet. <br/>
+                                        Maggan startade Zaxxen för 20 år sedan och har många års erfarenhet inom yrket. Idag brinner vi för att hjälpa andra människor med sitt hår. Det gäller både peruker och människor som är i behov av till hårdelar och även tupeér för män. Idag är vi fler i vårt team och vi kompletterar varandra på alla möjliga plan. Vår ambition är att drivas framåt tillsammans med ambitionen om att varje dag är en ny utmaning där vi tillgodo ser kundens förväntningar och önskemål. Vi är nyfikna och lyhörda där vi tar ansvar och hittar lösningar. <br/>
+                                        Vi har träffat många kunder och vi är tacksamma för att vi får vara kreativa med er, låt oss skapa ditt JAG!
+                                        </p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -135,9 +141,13 @@ const Landing = (props) => (
                              <header className="major" style={{backgroundColor:'#65535C'}}>
                                  <h2>Salonger</h2>
                              </header>
-                             <div style={{display:'flex',justifyContent:'center',flexDirection:'row', paddingBottom:'30px', width:'100%'}}>
-                                <img src={kartan} className="image" style={{borderRadius:'0px',objectFit:'cover', backgroundColor:'#F4AA7C',width:'20%',maxWidth:'100%'}}  alt="Karta"/>
-                                <img src={location} className="image" style={{borderRadius:'0px',objectFit:'cover', backgroundColor:'#F4AA7C',width:'20%',maxWidth:'100%'}}  alt="Karta"/>
+                             <div className="grid-wrapper">
+                                <div className="col-12">
+                                    <div className="grid-wrapper" style={{gridGap:'0px'}}>
+                                        <div className="col-6"><span className="image fit"><img src={kartan} alt="Karta" /></span></div>
+                                        <div className="col-6"><span className="image fit"><img src={location} alt="Karta" /></span></div>
+                                    </div>
+                                </div>
                              </div>
                              <ul className="actions">
                                  <li><Link to="https://www.bokadirekt.se/places/h%C3%A5ratelj%C3%A9-zaxxen-16138" className="button next">BOKA</Link></li>
