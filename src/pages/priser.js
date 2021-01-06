@@ -25,7 +25,7 @@ const Landing = (props) => (
                             </header>
                             <p style={{textAlign:'center'}}>Nedanför kan du läsa om prisinformation för alla hår och skönhetsbehandlingar vi erbjuder. Boka tid för till exempel en klippning eller slingor gör man enklast på länken nedanför!</p>
                             <ul className="actions" style={{display:'flex',justifyContent:'center',flexDirection:'column',marginLeft:'auto',marginRight:'auto'}}>
-                                <li><a href="https://www.bokadirekt.se/places/h%C3%A5ratelj%C3%A9-zaxxen-16138" className="button scrolly">BOKA TID</a></li>
+                                <li><a href="https://www.bokadirekt.se/places/h%C3%A5ratelj%C3%A9-zaxxen-16138" className="button scrolly" target="_blank" rel="noopener noreferrer">BOKA TID</a></li>
                             </ul>
                         </div>
                     </div>

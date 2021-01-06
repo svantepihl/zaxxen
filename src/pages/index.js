@@ -8,7 +8,6 @@ import tjanster from '../assets/images/tjanster.png'
 import wigs from '../assets/images/wigs.png'
 
 import pic01 from '../assets/images/pic01.jpg'
-import pic02 from '../assets/images/pic02.jpg'
 import alla from  '../assets/images/staff/alla-alt.png'
 
 
@@ -49,7 +48,7 @@ class HomeIndex extends React.Component {
                                 <h3>Peruker & Hårersättning</h3>
                                 <p>Läs mer</p>
                             </header>
-                            <Link to="/peruk-tupe/" className="link primary"></Link>
+                            <Link to="/peruk-harersattning/" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${alla})`}}>
                             <img src={alla} className="image" style={{visibility:'hidden'}}  alt="Bild på Malin"/>
@@ -70,7 +69,7 @@ class HomeIndex extends React.Component {
                              <p>Maggan startade Zaxxen för 20 år sedan och har många års erfarenhet inom yrket. Idag brinner hon för att hjälpa andra människor med sitt hår. Det gäller både peruker och människor som är i behov av till hårdelar och även tupeér för män. Idag är vi fler i vårt team och vi kompletterar varandra på alla möjliga plan. Vår ambition är att drivas framåt tillsammans med ambitionen om att varje dag är en ny utmaning där vi tillgodo ser kundens förväntningar och önskemål. Vi är nyfikna och lyhörda där vi tar ansvar och hittar lösningar. </p>
                              <p>Vi har träffat många kunder och vi är tacksamma för att vi får vara kreativa med er, låt oss skapa ditt JAG!</p>
                              <ul className="actions">
-                                 <li><Link to="https://www.bokadirekt.se/places/h%C3%A5ratelj%C3%A9-zaxxen-16138" className="button next">BOKA</Link></li>
+                                 <li><a href="https://www.bokadirekt.se/places/h%C3%A5ratelj%C3%A9-zaxxen-16138" className="button next" target="_blank" rel="noopener noreferrer">BOKA</a></li>
                              </ul>
                          </div>
                      </section>

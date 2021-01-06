@@ -13,7 +13,7 @@ const BannerPriser = (props) => (
             </header>
             <div className="content">
                 <ul className="actions">
-                    <li><a href="https://www.bokadirekt.se/places/h%C3%A5ratelj%C3%A9-zaxxen-16138" className="button scrolly">BOKA TID</a></li>
+                    <li><a href="https://www.bokadirekt.se/places/h%C3%A5ratelj%C3%A9-zaxxen-16138" className="button scrolly" target="_blank" rel="noopener noreferrer">BOKA TID</a></li>
                 </ul>
             </div>
         </div>

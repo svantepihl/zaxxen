@@ -33,7 +33,7 @@ const Contact = (props) => (
                     <div className="contact-method">
                         <span className="icon alt fa-envelope"></span>
                         <h3>E-post</h3>
-                        <a href="#">info@zaxxen.se</a>
+                        <a href="mailto:info@zaxxen.se?Subject=Hej">info@zaxxen.se</a>
                     </div>
                 </section>
                 <section>
@@ -44,10 +44,12 @@ const Contact = (props) => (
                     </div>
                 </section>
                 <section>
-                    <div className="contact-method">
+                    <div className="grid-wrapper" style={{width:'130%'}}>
+                        <div className="col-6">
+                        <div className="contact-method">
                         <span className="icon alt fa-home"></span>
-                        <h3>Adress</h3>
-                        <a href="https://www.google.com/maps/place/Zaxxen/@56.3814227,13.9942388,15z/data=!4m5!3m4!1s0x0:0x385843ae6cc395ed!8m2!3d56.3814227!4d13.9942388">
+                        <h3>Zaxxen</h3>
+                        <a href="https://www.google.com/maps/place/Zaxxen/@56.3814227,13.9942388,15z/data=!4m5!3m4!1s0x0:0x385843ae6cc395ed!8m2!3d56.3814227!4d13.9942388" target="_blank" rel="noopener noreferrer">
                         <span>Klockaregatan 1C,<br />
                         283 31, Osby<br />
                         </span>
@@ -55,7 +57,24 @@ const Contact = (props) => (
                         <p>
                         måndag-fredag 9-18
                         </p>
+                        </div>
+                        </div>
+                        <div className="col-6">
+                        <div className="contact-method">
+                        <span className="icon alt fa-home"></span>
+                        <h3>Annexxet</h3>
+                        <a href="https://goo.gl/maps/FoYKn8drg23y34Zr5" target="_blank" rel="noopener noreferrer">
+                        <span>Västra Järnvägsgatan 27C,<br />
+                        283 31, Osby<br />
+                        </span>
+                        </a>
+                        <p>
+                        måndag-fredag 9-18
+                        </p>
                     </div>
+                        </div>
+                    </div>
+
                 </section>
             </section>
         </div>
