@@ -25,7 +25,7 @@ const Landing = (props) => (
                             <header className="major" style={{textAlign:'center', width:'100%'}}>
                                 <h1>Peruker & Hårersättning</h1>
                             </header>
-                            <p style={{textAlign:'center'}}>Nedanför kan du läsa mer peruker och tupéer och vad vi kan hjälpa till med.....</p>
+                            <p style={{textAlign:'center'}}>Nedanför kan du läsa mer peruker och hårersättning och vad vi kan hjälpa till med.....</p>
                             <ul className="actions" style={{display:'flex',justifyContent:'center',flexDirection:'column',marginLeft:'auto',marginRight:'auto'}}>
                                 <li><a href="https://www.bokadirekt.se/places/h%C3%A5ratelj%C3%A9-zaxxen-16138" className="button scrolly">BOKA TID</a></li>
                             </ul>
