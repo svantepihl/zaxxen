@@ -5,7 +5,7 @@ import Header from './Header'
 import Menu from './Menu'
 import Contact from './Contact'
 import Footer from './Footer'
-import "fontsource-noto-sans-sc" // Defaults to weight 400 with all styles included.
+import "@fontsource/noto-sans-sc" // Defaults to weight 400.
 
 class Layout extends React.Component {
     constructor(props) {
