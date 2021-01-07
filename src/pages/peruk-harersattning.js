@@ -6,6 +6,8 @@ import BannerPriser from '../components/BannerPriser'
 
 import products from '../assets/images/products.jpg'
 
+import wigs2 from '../assets/images/wigs2.png'
+
 
 const Landing = (props) => (
     <Layout>
@@ -34,7 +36,7 @@ const Landing = (props) => (
             </section>
             <section id="two" className="spotlights">
             <section>
-            <iframe title="Peruker" style={{width:'560px',minHeight:'215px',maxWidth:'100%'}} src="https://www.youtube-nocookie.com/embed/Og423-iUPSI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <span className="image fit"><img src={wigs2} style={{height:'100%'}} alt="Kvinna i peruk" /></span>
                     <div className="content">
                         <div className="inner">
                             <header className="major">
@@ -54,7 +56,7 @@ const Landing = (props) => (
                 </section>
                 
                 <section style={{minHeight:'415px'}}>
-                <iframe title="Hårersättning" style={{width:'560px',minHeight:'215px' ,maxWidth:'100%'}} src="https://www.youtube-nocookie.com/embed/rIKLXJ6vLH0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe title="Hårersättning" style={{width:'560px',minHeight:'215px',maxWidth:'100%'}} src="https://www.youtube-nocookie.com/embed/Og423-iUPSI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     <div className="content" style={{}}>
                         <div className="inner">
                             <header className="major">
