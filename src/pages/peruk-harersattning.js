@@ -5,7 +5,6 @@ import Layout from '../components/layout'
 import BannerPriser from '../components/BannerPriser'
 
 import products from '../assets/images/products.jpg'
-import hair from '../assets/images/hair.jpg'
 
 
 const Landing = (props) => (
@@ -35,7 +34,7 @@ const Landing = (props) => (
             </section>
             <section id="two" className="spotlights">
             <section>
-            <iframe width="560" height="415" style={{maxWidth:'100%'}} src="https://www.youtube-nocookie.com/embed/Og423-iUPSI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe title="Peruker" style={{width:'560px',minHeight:'215px',maxWidth:'100%'}} src="https://www.youtube-nocookie.com/embed/Og423-iUPSI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     <div className="content">
                         <div className="inner">
                             <header className="major">
@@ -53,9 +52,9 @@ const Landing = (props) => (
                         </div>
                     </div>
                 </section>
-
-                <section>
-                <iframe width="560" height="415" style={{maxWidth:'100%'}} src="https://www.youtube-nocookie.com/embed/rIKLXJ6vLH0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                
+                <section style={{minHeight:'415px'}}>
+                <iframe title="Hårersättning" style={{width:'560px',minHeight:'215px' ,maxWidth:'100%'}} src="https://www.youtube-nocookie.com/embed/rIKLXJ6vLH0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     <div className="content" style={{}}>
                         <div className="inner">
                             <header className="major">

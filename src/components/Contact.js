@@ -8,11 +8,11 @@ const Contact = (props) => (
             <form name="contact" method="POST" data-netlify="true" >
                 <input type="hidden" name="form-name" value="contact" />
                 <div className="field half first">
-                    <label>Namn</label>
+                    <label htmlFor="name">Namn</label>
                     <input type="text" name="name" id="name" style={{color:'black'}}/>
                 </div>
                 <div className="field half">
-                    <label>E-post</label>
+                    <label htmlFor="email">E-post</label>
                     <input type="text" name="email" id="email" style={{color:'black'}} />
                 </div>
                 <div className="field">

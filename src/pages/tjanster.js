@@ -1,14 +1,12 @@
 import React from 'react'
-import { Link } from 'gatsby'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import BannerPriser from '../components/BannerPriser'
 
-import products from '../assets/images/products.jpg'
-import hair from '../assets/images/hair.jpg'
+import tjanster from '../assets/images/tjanster.png'
+import products from '../assets/images/tjanster/products.png'
+import icon from '../assets/images/tjanster/icon.png'
 
-// TJÄNSTER
-import scalpAfter from '../assets/images/tjanster/scalpAfter.jpg'
 
 const Landing = (props) => (
     <Layout>
@@ -39,31 +37,18 @@ const Landing = (props) => (
             </section>
 
             <div className="inner">
-                <div className="grid-wrapper" style={{gridColumnGap:'20px'}}>
-                    <div className="col-6">
-                        <div className="box alt">
-                            <header className="major">
-                                <h3>Allt inom hår</h3>
-                            </header>
-                            <p>Vi gör alla behandlingar, klipper, färgar, slingar, balayage, ombre, osv.</p>
-                        </div>
+                <div className="grid-wrapper" style={{gridColumnGap:'20px',gridRowGap:'150px'}}>
+                    <div className="col-6">                        
+                        <header className="major">
+                            <h3>Allt inom hår</h3>
+                        </header>
+                        <p>Vi gör alla behandlingar, klipper, färgar, slingar, balayage, ombre, osv.</p>
                     </div>
                     <div className="col-6">
-                        <div className="box alt">
-                            <header className="major">
-                                <h3>Lashlift</h3>
-                            </header>
-                            <p>Lashlift - få naturligt böjda fransar i upp till 3 månader! Rekommenderas att göras om var 6e vecka för bästa resultat. Fransarna böjs och färgas för ett naturligt resultat. Detta gör att de ser längre och fylligare ut. Inkluderar även keratinbehandling.</p>
-                        </div>
-                    </div>
-                    <div className="col-12">
-                        <div className="box alt">
-                            <div className="grid-wrapper">
-                                <div className="col-4"><span className="image fit"><img src={hair} alt="" /></span></div>
-                                <div className="col-4"><span className="image fit"><img src={hair} alt="" /></span></div>
-                                <div className="col-4"><span className="image fit"><img src={hair} alt="" /></span></div>
-                            </div>
-                        </div>
+                        <header className="major">
+                            <h3>Lashlift</h3>
+                        </header>
+                        <p>Lashlift - få naturligt böjda fransar i upp till 3 månader! Rekommenderas att göras om var 6e vecka för bästa resultat. Fransarna böjs och färgas för ett naturligt resultat. Detta gör att de ser längre och fylligare ut. Inkluderar även keratinbehandling.</p>
                     </div>
                     <div className="col-6">
                         <div className="box alt">
@@ -74,67 +59,32 @@ const Landing = (props) => (
                         </div>
                     </div>
                     <div className="col-6">
-                        <div className="box alt">
                         <header className="major">
                             <h3>Peruker</h3>
                         </header>
                         <p>Är du i behov av peruk på grund utav cellgiftsbehandling eller annan orsak? I en avskild och trygg miljö med fantastiska peruker får du ett vackert och naturligt resultat utfört av utbildad peruktekniker. Vi säljer alla tillbehör och skötselprodukter till peruker.</p>
-                        </div>
-                    </div>
-                    <div className="col-12">
-                        <div className="box alt">
-                            <div className="grid-wrapper">
-                                <div className="col-4"><span className="image fit"><img src={hair} alt="" /></span></div>
-                                <div className="col-4"><span className="image fit"><img src={hair} alt="" /></span></div>
-                                <div className="col-4"><span className="image fit"><img src={hair} alt="" /></span></div>
-                            </div>
-                        </div>
                     </div>
                     <div className="col-6">
-                        <div className="box alt">
-                            <header className="major">
-                                <h3>Hårersättning</h3>
-                            </header>
-                            <p>Är du tunnhårig eller lider av kala fläckar? Med moderna metoder så hjälper vi dig med hårersättning.</p>
-                        </div>
+                        <header className="major">
+                            <h3>Hårersättning</h3>
+                        </header>
+                        <p>Är du tunnhårig eller lider av kala fläckar? Med moderna metoder så hjälper vi dig med hårersättning.</p>
                     </div>
 
                     <div className="col-6">
-                        <div className="box alt">
                         <header className="major">
                                 <h3>Hårbottenanalys</h3>
                             </header>
                             <p>Gör en analys av hårbottens och hårsäckarnas skick med hjälp av en hårbottenanalys med mikrokamera. Med hjälp av vår analys kan vi förebygga och behandla håravfall och klåda.</p>
                         </div>
-                    </div>
-                    <div className="col-12">
-                        <div className="box alt">
-                            <div className="grid-wrapper">
-                                <div className="col-4"><span className="image fit"><img src={scalpAfter} alt="" /></span></div>
-                                <div className="col-4"><span className="image fit"><img src={hair} alt="" /></span></div>
-                                <div className="col-4"><span className="image fit"><img src={hair} alt="" /></span></div>
-                            </div>
-                        </div>
-                    </div>
                 </div>
                 
             </div>
 
-            <section id="two" className="spotlights">
-
-                <section>
-                    <img src={products} className="image" style={{borderRadius:'0px',objectFit:'cover', backgroundColor:'#F4AA7C'}}  alt="Bild på hårprodukter"/>
-                    <div className="content" style={{}}>
-                        <div className="inner">
-                            <header className="major">
-                                <h3>Produkter</h3>
-                            </header>
-                            <p> 
-                                Här ska vi skriva något om produkterna <br/>
-                                Maria Nila, Keune, Goldwell, Grazette, ICON, Hjärtligt, Moroccan, Lanza, Olaplex
-                            </p>
-                        </div>
-                    </div>
+            <section id="two">
+                <section className="grid-wrapper">
+                    <div className="col-4" style={{height:'auto'}}><span className="image fit"><img src={tjanster} style={{}} alt="Morccan oil" /><img src={icon} style={{}} alt="Morccan oil" /></span></div>
+                    <div className="col-8" style={{height:'auto'}}><span className="image fit"><img src={products} style={{height:'100%'}} alt="Morccan oil" /></span></div>
                 </section>
             </section>
         </div>

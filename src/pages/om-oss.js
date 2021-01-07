@@ -1,13 +1,9 @@
 import React from 'react'
-import { Link } from 'gatsby'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 
-import products from '../assets/images/products.jpg'
-import hair from '../assets/images/hair.jpg'
+
 import Banner from '../components/BannerPriser'
-import mp4 from '../assets/video/om-oss.mp4'
-import webm from '../assets/video/om-oss.webm'
 
 // STAFF
 import maggan from '../assets/images/staff/Maggan.png'
@@ -17,6 +13,7 @@ import malin from '../assets/images/staff/Malin.png'
 import my from '../assets/images/staff/My.png'
 import nea from '../assets/images/staff/Nea.png'
 
+// Locations
 import kartan from '../assets/images/kartan.png'
 import location from '../assets/images/locations.png'
 
