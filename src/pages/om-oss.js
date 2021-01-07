@@ -106,13 +106,13 @@ const Landing = (props) => (
                         </p>
                     </div>
                 </div>
-                <div className="col-2" style={{backgroundColor:'#65535C'}}>
+                <div className="col-2" style={{backgroundColor:'#65535C', paddingBottom:'25px'}}>
                     <img src={nea} className="image" style={{borderRadius:'0px',objectFit:'cover', backgroundColor:'#F4AA7C',width:'414px',maxWidth:'100%'}}  alt="Bild på Nea"/>
                     <div style={{margin:'1rem',overflowWrap:'break-word'}}>
                         <header className="major">
                             <h3>Nea</h3>
                         </header>
-                        <p>
+                        <p style={{margin:'0'}}>
                             Vår superduktiga elev. Går 3:e året på Milnerskolan. Finns hos oss på fredagar fram till sommaren, därefter på heltid.
                         </p>
                     </div>
@@ -120,22 +120,14 @@ const Landing = (props) => (
             </div>
             </section>
             <section id="three" style={{backgroundColor:'#65535C'}}>
-                         <div className="inner" style={{backgroundColor:'#65535C'}}>
-                             <header className="major" style={{backgroundColor:'#65535C'}}>
-                                 <h2>Salonger</h2>
-                             </header>
-                             <div className="grid-wrapper">
-                                <div className="col-12">
-                                    <div className="grid-wrapper" style={{gridGap:'0px'}}>
-                                        <div className="col-6"><span className="image fit"><img src={kartan} alt="Karta" /></span></div>
-                                        <div className="col-6"><span className="image fit"><img src={location} alt="Karta" /></span></div>
-                                    </div>
-                                </div>
-                             </div>
-                             <ul className="actions">
-                                 <li><Link to="https://www.bokadirekt.se/places/h%C3%A5ratelj%C3%A9-zaxxen-16138" className="button next" target="_blank" rel="noopener noreferrer">BOKA</Link></li>
-                             </ul>
-                         </div>
+                <div className="grid-wrapper">
+                <div className="col-12">
+                    <div className="grid-wrapper" style={{gridGap:'0px'}}>
+                        <div className="col-6" style={{height:'auto'}}><span className="image fit"><img src={kartan} style={{height:'100%'}} alt="Karta" /></span></div>
+                        <div className="col-6" style={{height:'auto'}}><span className="image fit"><img src={location} style={{height:'100%'}} alt="Karta" /></span></div>
+                    </div>
+                </div>
+                </div>
             </section>
         </div>
 
