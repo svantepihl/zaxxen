@@ -76,7 +76,7 @@ const Landing = (props) => (
                                                 <tr>
                                                     <td style={{width:'90%'}}>Maskinklipp över hela</td>
                                                     <td></td>
-                                                    <td style={{textAlign:'right'}}>300:-</td>
+                                                    <td style={{textAlign:'right'}}>350:-</td>
                                                 </tr>
                                                 <tr>
                                                     <td style={{width:'90%'}}>Tvätta och locka</td>
